@@ -1,7 +1,9 @@
 # CS_576_Final_Project
 Final Project For CS 576 Multimedia Systems by Ryan Li, Colbert Lin, and Jiaqi Wang
-Utilizing https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html
 
+Written in C++ and utilizing:
+- https://docs.opencv.org/2.4/modules/highgui/doc/reading_and_writing_images_and_video.html
+- https://miniaud.io/
 
 This project implements a video compression and decompression system with a focus on foreground/background segmentation.
 The core idea is to apply different compression levels to moving objects (foreground) and static parts (background) of a video, allowing for qualitative improvement in foreground compression.
